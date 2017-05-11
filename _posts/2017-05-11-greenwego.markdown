@@ -1,10 +1,10 @@
-﻿---
+---
 layout:     post
 title:      "跑步+骑行上班  "
 subtitle:   "绿色出行"
 date:       2017-05-10 10:00:00
 author:     "Wyq"
-header-img: "img/post-bg-greenwego.jpg"
+header-img: "img/post-bg-greenwego.png"
 tags:
    生活
 ---
