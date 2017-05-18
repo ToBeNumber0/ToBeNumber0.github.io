@@ -19,12 +19,12 @@ tags:
         v0.5.10
 
 3. 安装git  
-在[这里](https://git-for-windows.github.io/)下载Git windows版本，目前最新版是Git-2.13.0-64-bit.exe，按照提示一步步安装即可。安装完成后把git安装bin目录加入PATH环境变量
+在[这里](https://git-for-windows.github.io/)下载Git windows版本，目前最新版是Git-2.13.0-64-bit.exe，按照提示一步步安装即可。安装完成后把git安装bin目录加入PATH环境变量。  
+CMD中运行 git --version 确认安装是否成功
 
- CMD中运行 git --version 确认安装是否成功
-
-    C:\Users\Administrator>git --version
-    git version 2.13.0.windows.1
+        C:\Users\Administrator>git --version
+        git version 2.13.0.windows.1
+    
 4. 安装 npm  
 在确保node.exe和git都在PATH环境变量中后执行以下命令:
 
@@ -36,7 +36,7 @@ tags:
         
         node cli.js install npm -gf
         
-5. 安装成功。测试一下。
+5.  安装成功。测试一下。
 
         D:\develop\nodejs\hello>npm install -d
         npm info it worked if it ends with ok
