@@ -1,15 +1,14 @@
-
 ---
 layout:     post
 title:      "windows下配置npm"
-subtitle:   "绿色出行"
+subtitle:   ""
 date:       2017-05-18 16:49:00
 author:     "Wyq"
-
 tags:
    学习 
    npm
 ---
+
 1. 下载node.js的windows版  
 点击[这里](https://nodejs.org/en/download/)下载，按照默认配置安装。
 2. 设置环境变量   
@@ -52,5 +51,3 @@ tags:
 推荐：
 
 * [使用git拉取github上的项目](http://www.cnblogs.com/real-me/p/6528426.html)
-* 
-
