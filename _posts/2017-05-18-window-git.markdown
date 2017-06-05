@@ -51,3 +51,4 @@ CMD中运行 git --version 确认安装是否成功
 推荐：
 
 * [使用git拉取github上的项目](http://www.cnblogs.com/real-me/p/6528426.html)
+* [Window下安装npm](http://blog.csdn.net/kavensu/article/details/17733639) 本文参考地址，不过文中的一些安装包已经较旧，后面几步会报错。
