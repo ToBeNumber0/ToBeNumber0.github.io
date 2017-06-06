@@ -2,7 +2,7 @@
 layout:     post
 title:      "Hello 2017"
 subtitle:   "Hello World, Hello Blog"
-date:       2016-05-08 18:00:00
+date:       2017-05-08 18:00:00
 author:     "Wyq"
 header-img: "img/post-bg-2015.jpg"
 tags:
@@ -16,7 +16,9 @@ tags:
 
 Wyq 的 Blog 就这么开通了。
 
-模板来源：Huxpro/huxpro.github.io
+模板来源：[Huxpro/huxpro.github.io](https://github.com/Huxpro/huxpro.github.io)
+
+感谢Huang Xuan大神提供的模版。
 
 走到这一步，也是不容易。
 
