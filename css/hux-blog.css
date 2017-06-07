@@ -1090,7 +1090,7 @@ img::-moz-selection {
   color: #ddd;
 }
 /*头部新增一道光闪过效果*/
-header.intro-headerbefore {
+header.intro-header:before {
     content: "";
     position: absolute;
     width: 200px;
