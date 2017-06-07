@@ -1109,5 +1109,5 @@ header.intro-header:before {
 header.intro-header:hover:before {
     left: 150%;
     -webkit-transition: all 2s ease;
-    transition: all .3s ease;
+    transition: all 2s ease;
 }
