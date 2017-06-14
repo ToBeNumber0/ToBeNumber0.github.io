@@ -26,11 +26,13 @@ tags:
 2. 在项目根路径下运行命令`npm init`生成package.json。按照默认配置一路回车即可。
 3. 在src目录下新建四个文件
 	
-	index.js|打包的入口文件
+	index.js  |打包的入口文件
+
+	:--------:|:----------
 	
-	common.js|为普通的js模块文件
+	common.js |为普通的js模块文件
 	
-	style.css|样式模块文件
+	style.css |样式模块文件
 	
 	index.html|项目的首页
 
@@ -83,7 +85,9 @@ tags:
     this is common.js !
     this is index.js !
 ```
+
 ## css打包
+
 1. 安装style-loader与css-loader  
 项目根路径下运行如下命令：  
 `npm install style-loader css-loader --save-dev`
@@ -120,6 +124,7 @@ tags:
 4. 在项目根路径下运行 `webpack`命令，打开index.html，查看效果。
 
 ## html打包（代码打包至build文件夹）
+
 1. 项目根路径下运行  
 `npm install html-webpack-plugin --save-dev`
 2. 重新配置webpack.config.js
@@ -153,9 +158,9 @@ tags:
             })] 
     }
 ``` 
-3. 项目根路径下运行webpack，会发现文件被打包至build文件夹，打开bulid下的index.html,查看效果。
+3. 项目根路径下运行webpack，会发现文件被打包至build文件夹，打开bulid下的index.html,查看效果。  
 注：*在此步如果运行webpack时报错  
-**Cannot find module webpack/lib/node/NodeTemplatePlugin** ,需要配置NODE_PATH环境变量。命令行输入 `npm config get piefix` 按照显示的node路径配置NODE_PATH环境变量即可。如我的路径为 `D:\Program Files\node\node_modules`*
+**Cannot find module webpack/lib/node/NodeTemplatePlugin** ,需要配置 NODE_PATH 环境变量。命令行输入 `npm config get piefix` 按照显示的node路径配置 NODE_PATH 环境变量即可。如我的路径为 `D:\Program Files\node\node_modules`*
 
 ## 打包图片文件
 
