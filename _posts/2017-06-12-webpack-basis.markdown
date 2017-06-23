@@ -25,16 +25,16 @@ tags:
 1. 新建项目webpacktest，在项目*根路径*下新建build和src两个文件夹。src为开发目录，build为打包目录。
 2. 在项目根路径下运行命令`npm init`生成package.json。按照默认配置一路回车即可。
 3. 在src目录下新建四个文件
-	
-	index.js  |打包的入口文件
 
-	:--------:|:----------
+	|:-------: |:-----------      |
+
+	|index.js  |打包的入口文件      |
 	
-	common.js |为普通的js模块文件
+	|common.js |为普通的js模块文件  |
 	
-	style.css |样式模块文件
+	|style.css |样式模块文件       |
 	
-	index.html|项目的首页
+	|index.html|项目的首页         |
 
 4. 写入代码
 各个文件的代码如下：
@@ -186,5 +186,6 @@ tags:
 3. html或者css中引入图片，项目根路径下运行webpack命令，打开index.html即可查看效果。
 
 
+[github源码地址  欢迎Fork ](https://github.com/ToBeNumber0/webpack-gulp-angular)   
 
-参考：[http://www.cnblogs.com/pomelott/p/6974167.html](http://www.cnblogs.com/pomelott/p/6974167.html)
+原文参考：[http://www.cnblogs.com/pomelott/p/6974167.html](http://www.cnblogs.com/pomelott/p/6974167.html)
