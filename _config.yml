@@ -1,10 +1,10 @@
 # Site settings
 title: Wyq Blog
-SEOTitle: 王玉泉的博客 | Wyq Blog
+SEOTitle: 王的博客 | Wyq Blog
 header-img: img/home-bg.jpg
 email: 393912540@qq.com
 description: "与你一起发现更大的世界。"
-keyword: "Wyq Blog, 博客, 个人网站, 互联网, 前端, 设计, 产品，王玉泉"
+keyword: "Wyq Blog, 博客, 个人网站, 互联网, 前端, Python,王玉泉"
 url: ""              # your host, for absolute URL
 baseurl: ""                             # for example, '/blog' if your blog hosted on 'host/blog'
 
@@ -70,7 +70,7 @@ ga_domain: auto #huangxe
 
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
-sidebar-about-description: "王玉泉<br>沧海一粟"
+sidebar-about-description: "王玉泉<br>学海无涯"
 sidebar-avatar: /img/avatar-wyq.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
