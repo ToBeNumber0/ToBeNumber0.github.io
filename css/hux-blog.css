@@ -1111,3 +1111,7 @@ header.intro-header:hover:before {
     -webkit-transition: all 2s ease;
     transition: all 2s ease;
 }
+/* 评论样式 */
+#disqus_thread a {
+  color: red;
+}
