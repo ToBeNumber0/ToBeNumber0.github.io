@@ -1112,6 +1112,7 @@ header.intro-header:hover:before {
     transition: all 2s ease;
 }
 /* 评论样式 */
-#disqus_thread a {
-  color: red;
+#disqus_thread{
+    background:#056;
+    padding: 10px;
 }
