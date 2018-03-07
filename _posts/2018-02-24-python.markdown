@@ -1,7 +1,7 @@
 ---
 layout:     post
 
-title:      "linux下python3及mysql安装及配置"
+title:      "Linux环境下Python3及Mysql安装配置"
 
 subtitle:   ""
 
@@ -17,12 +17,12 @@ tags:
 
 ---
 
-## 前言
+# 前言
 
 最近腾讯推出腾讯云服务器，10元/月，果断买了3年的，虽然配置不高，2G内存，
 50G硬盘，1M带宽。跑个爬虫玩倒是足够了。
 
-## Linux环境下mysql数据库安装及配置
+# Linux环境下mysql数据库安装及配置
 1. 首先下载安装源。`wget http://repo.mysql.com/mysql-community-release-el6-5.noarch.rpm`
 2. 执行命令`rpm -ivh mysql-community-release-el6-5.noarch.rpm ` 。
 3. yum安装`yum install mysql-community-server`。在此过程中会自动下载安装依赖，
@@ -38,7 +38,7 @@ tags:
 
 ok，搞定。现在使用mysql的连接工具如`navicat`就可以直接远程访问了。
 
-## Linux下Python3安装
+# Linux下Python3安装
 
 因Linux中默认情况下很多东西依赖于python2环境，比如yum。所以正常
 情况下我们都选择直接安装python3，反正两者也不冲突。
@@ -64,6 +64,7 @@ Type "help", "copyright", "credits" or "license" for more information.
 
 如果你遇到和我不同的问题，欢迎在本文下方留言（需要翻墙）。
 或者[邮箱](393912540@qq.com)联系我。
+
 [github源码地址  欢迎Fork ](https://github.com/ToBeNumber0/webpack-gulp-angular)   
 
 本文原创，欢迎大家参考。
