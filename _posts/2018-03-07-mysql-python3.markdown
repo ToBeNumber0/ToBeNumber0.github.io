@@ -20,7 +20,7 @@ tags:
 # 前言
 
 最近腾讯推出腾讯云服务器，10元/月，果断买了3年的，虽然配置不高，2G内存，
-50G硬盘，1M带宽。跑个爬虫玩倒是足够了。
+50G硬盘，1M带宽。跑个爬虫玩倒是足够了。下面是在服务器上安装mysql和python的历程。
 
 # Linux环境下mysql数据库安装及配置
 1. 首先下载安装源。`wget http://repo.mysql.com/mysql-community-release-el6-5.noarch.rpm`
@@ -32,7 +32,8 @@ tags:
 `service mysqld start`
 5. 一开始root密码为空，`mysql -uroot -p`然后回车进入mysql，接下来修改root密码。
 * 选择库：`use mysql`
-* 修改密码：`update user set password='test123' where User='root';`
+* 修改密码：`update user set password=password('test123') where user='root';`
+注意不要写成`update user set password='test123' where User='root';`因为password函数会自动加密
 * 退出mysql：`exit`
 * 重新进入`mysql：mysql -uroot -p`，回车，输入自己的密码如`test123`，回车。
 
