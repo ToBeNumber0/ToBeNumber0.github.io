@@ -5,7 +5,7 @@ title:      "精神力修炼法第16-1次修订"
 
 subtitle:   ""
 
-date:       2014-12-26 21:46:25
+date:       2018-03-16 09:26:10
 
 author:     "死神的守护神"
 
@@ -208,9 +208,3 @@ tags:
 
 
 
-如果你遇到和我不同的问题，欢迎在本文下方留言（需要翻墙）。
-或者[邮箱](393912540@qq.com)联系我。
-
-[github源码地址  欢迎Fork ](https://github.com/ToBeNumber0/webpack-gulp-angular)   
-
-本文原创，欢迎大家参考。
